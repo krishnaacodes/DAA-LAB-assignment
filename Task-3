@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+
+int n = 10;
+
+int outer_count = 0;
+int inner_count = 0;
+
+for(int i = 0; i < n; i++){
+outer_count++;
+
+for(int j = i; j < n; j++){
+inner_count++;
+}
+}
+
+cout << "count of outer count" << outer_count << endl;
+cout << " count of inner count " << inner_count << endl;
+
+
+
+
+
+return 0;
+}
